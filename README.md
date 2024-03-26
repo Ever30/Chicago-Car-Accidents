@@ -2,8 +2,7 @@
 ### UC Berkeley Data Analytics and Visualization Bootcamp 2023-24
 Group 4: Julio Dela Cruz, Everardo Garcia, Amanpreet Kaur, David Robles, Dylan Sui
 
-Project Website URL: 
-
+Project Website URL: https://ever30.github.io/Chicago-Car-Accidents/
 
 ## Description
 
