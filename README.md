@@ -4,6 +4,10 @@ Group 4: Everardo Garcia ,Julio Dela Cruz, Amanpreet Kaur, David Robles, Dylan S
 
 Project Website URL: https://ever30.github.io/Chicago-Car-Accidents/
 
+
+![Screenshot 2024-03-26 at 11 49 37 AM](https://github.com/Ever30/Chicago-Car-Accidents/assets/149534473/0101d734-aa8d-40e1-9e0a-b40bd9037ab1)
+
+
 ## Description
 
 The purpose of this project is to analyze the data regarding car crashes in the City of Chicago and to create visualizations that will help us answer the following questions:
