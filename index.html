@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DATA VISUAL</title>
+    <title>Chicago Car Accidents</title>
     <link rel="stylesheet" href="mainstyle.css">
     
 </head>
 <body>
     <section>
         <header>
-            <h2>UCB DATA BOOTCAMP</h2>
+            <h2>Chicago Car Accidents</h2>
         
             <div class="navigation">
                 <a href="./conditionIndex.html">Lighting & Weather</a>
@@ -23,8 +23,8 @@
         </header>
         <div class="content">
             <div class="info">
-                <h2><br><span>Project 3</span></h2>
-                <h7>Everardo Garcia</h7>
+                <!-- <h2><br><span>Project 3</span></h2> -->
+                <h5>POINTS TO REVIEW</h5>
                 <p>What are some factors that can contribute to traffic Incidents? Especially within a bustling city such as New York, San Francisco, and Chicago? Today, we will look at and explore data concerning traffic incidents that occurred within the city of Chicago.</p>
                 <p>Some questions that we want to answer are:</p>
                     <ul>
@@ -34,11 +34,11 @@
                         <li>Average Incident Information: Which accident type on average has the highest injury count and what is the average cost of associated damages?</li>
                         <li>Are crash crashes more prevalent during certain days of week or months of year?</li>
                     </ul>
-                <h3>Data Cleaning</h3>
+                <h5>Data Cleaning</h5>
                 <p>The initial dataset that we obtained from the source was massive. It contained data of car crashes in the city of Chicago stemming from back in 2015. There were over 800,000 rows in the csv file that we read into our Jupyter Notebook file. Due to the size, we narrowed down the data to only include car crashes from 2022 and 2023. This left our dataset with 219,125 rows. We dropped 27 columns that we deemed irrelevent to the questions we were asking of the dataset. We then converted the "CRASH_DATE" column to datetime to be able to filter dates properly. This was the initial dataset that we started with to create our visuals.</p>
                 <h5>Ethical Considerations</h5>
                     <p>The data that we used for this project is crash data within the City of Chicago limits and under the jurisdiction of the Chicago Police Department (CPD). The actual data shown is extracted from the electronic reporting system (E-Crash) that is used at the CPD, but it excludes any personally identifiable information. Given that this is a public dataset API, we were made more comfortable using it for our project knowing that personal information about sensitive occurences such as car accidents were excluded. Another ethical consideration we looked at was that Socrata, the creator of this Chicago API, was acquired by Tyler Technologies in 2018 and is now the Data and Insights division of Tyler. The platform is still powered by the same software formerly known as Socrata, but there are references to Data & Insights. As we discussed in class, when companies get sold or merged, the ownership and the transferring of data creates risk that can be tricky to navigate. However, as mentioned previously, we were comfortable using this data set as the primary purpose of the data source is for users to explore the data.</p>
-                <h4>Limitations</h4>
+                <h5>Limitations</h5>
                     <ul>
                         <li>Data from E-Crash are available for some police districts in 2015, but citywide data are not available until September 2017.</li>
                         <li>About half of all crash reports, mostly minor crashes, are self-reported at the police district by the driver(s) involved and the other half are recorded at the scene by the police officer responding to the crash.</li>
@@ -49,7 +49,7 @@
 
                     </ul>
                 
-                <h6>Sources</h6>
+                <h5>Sources</h5>
                     <ul>
                         <li><a href="https://dev.socrata.com/foundry/data.cityofchicago.org/85ca-t3if">Dev Socrata</a></li>
                         <li><a href="https://data.cityofchicago.org/resource/85ca-t3if.json">City of Chicago JSON</a></li>
