@@ -5,24 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chicago Car Accidents</title>
     <link rel="stylesheet" href="mainstyle.css">
-    
 </head>
 <body>
     <section>
         <header>
+<<<<<<< Updated upstream
             <h2>Chicago Car Accidents</h2>
         
             <div class="navigation">
+=======
+            <h1>Chicago Car Accidents</h1> <!-- Changed to <h1> for main title -->
+            <nav class="navigation">
+>>>>>>> Stashed changes
                 <a href="./conditionIndex.html">Lighting & Weather</a>
                 <a href="Chicago_Car_Accidents/index.html">Map Data</a>
                 <a href="https://robles4293.pythonanywhere.com/">Traffic Control Devices Map</a>
                 <a href="./crash_type_cost.html">Average Costs</a>
                 <a href="crashMonth_days/indexMW.html">Monthly Data</a>
-            </div>
-
+            </nav>
         </header>
-        <div class="content">
+        <main class="content"> <!-- Added <main> tag -->
             <div class="info">
+<<<<<<< Updated upstream
                 <!-- <h2><br><span>Project 3</span></h2> -->
                 <h5>POINTS TO REVIEW</h5>
                 <p>What are some factors that can contribute to traffic Incidents? Especially within a bustling city such as New York, San Francisco, and Chicago? Today, we will look at and explore data concerning traffic incidents that occurred within the city of Chicago.</p>
@@ -54,10 +58,38 @@
                         <li><a href="https://dev.socrata.com/foundry/data.cityofchicago.org/85ca-t3if">Dev Socrata</a></li>
                         <li><a href="https://data.cityofchicago.org/resource/85ca-t3if.json">City of Chicago JSON</a></li>
                     </ul>
+=======
+                <h2>Overview</h2> <!-- Changed the second <h2> to <h2> for clarity -->
+                <p>What are some factors that can contribute to traffic incidents, especially within bustling cities like New York, San Francisco, and Chicago? Today, we will explore data concerning traffic incidents that occurred in the city of Chicago.</p>
+                <p>Some questions that we want to answer are:</p>
+                <ul>
+                    <li>How do lighting and weather conditions affect the number of crashes?</li>
+                    <li>What are the areas in Chicago with the most accidents, and what are the primary reasons?</li>
+                    <li>How does the presence of traffic control devices affect car crash rates and the incidence of severe injuries or fatalities?</li>
+                    <li>Average Incident Information: Which accident type on average has the highest injury count, and what is the average cost of associated damages?</li>
+                    <li>Are crashes more prevalent during certain days of the week or months of the year?</li>
+                </ul>
+                <h3>Data Cleaning</h3>
+                <p>The initial dataset was massive, containing data on car crashes in the city of Chicago from 2015, with over 800,000 rows in the CSV file imported into Jupyter Notebook. Due to its size, the data was narrowed down to include only car crashes from 2022 and 2023, resulting in a dataset of 219,125 rows. Twenty-seven columns deemed irrelevant to the questions being asked were dropped. The 'CRASH_DATE' column was then converted to datetime format to enable proper date filtering. This served as the initial dataset for creating visualizations.</p>
+                <h4>Ethical Considerations</h4>
+                <p>The data used for this project consists of crash data within the City of Chicago limits, under the jurisdiction of the Chicago Police Department (CPD). This data is extracted from the electronic reporting system (E-Crash) utilized by the CPD, with all personally identifiable information excluded. As this is a public dataset API, confidence in its use for the project is bolstered by the exclusion of personal information related to sensitive occurrences like car accidents.</p>
+                <p>Another ethical consideration involves Socrata, the creator of this Chicago API, which was acquired by Tyler Technologies in 2018 and is now part of the Data and Insights division of Tyler. The platform remains powered by the same software previously known as Socrata, though it includes references to Data & Insights. It is important to note that when companies undergo sales or mergers, the ownership and transfer of data can pose risks that require careful navigation. Nevertheless, the primary purpose of this data source is to enable users to explore the data confidently.</p>
+                <h4>Limitations</h4>
+                <ul>
+                    <li>Data from E-Crash are available for some police districts in 2015, but citywide data are not available until September 2017.</li>
+                    <li>About half of all crash reports, mostly minor crashes, are self-reported at the police district by the driver(s) involved, and the other half are recorded at the scene by the police officer responding to the crash.</li>
+                    <li>Many of the crash parameters, including street condition data, weather conditions, and posted speed limits, are recorded by the reporting officer based on the best available information at the time, but many of these may disagree with posted information or other assessments on road conditions.</li>
+                    <li>If any new or updated information on a crash is received, the reporting officer may amend the crash report at a later time.</li>
+                    <li>A traffic crash within the city limits for which CPD is not the responding police agency, typically crashes on interstate highways, freeway ramps, and on local roads along the City boundary, are excluded from this dataset.</li>
+                </ul>
+                <h5>Sources</h5>
+                <ul>
+                    <li><a href="https://dev.socrata.com/foundry/data.cityofchicago.org/85ca-t3if">Dev Socrata</a></li>
+                    <li><a href="https://data.cityofchicago.org/resource/85ca-t3if.json">City of Chicago JSON</a></li>
+                </ul>
+>>>>>>> Stashed changes
             </div>
-        </div>
-
+        </main> <!-- Closing the main tag -->
     </section>
-
 </body>
 </html>
