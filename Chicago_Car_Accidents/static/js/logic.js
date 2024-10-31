@@ -81,7 +81,7 @@ function createLegendControl(legends) {
   return legend;
 }
 
-// Function to create markers
+// Function to create markerss
 function createMarkers(response) {
   // Initialize arrays to hold car markers and coordinates for the heatmap.
   let carMarkers = [];
